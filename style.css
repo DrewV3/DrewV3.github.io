@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+    /* font-family: "Raleway", sans-serif; */
+    font-size: 24pt;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* height: 400vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+#Home {
+    height: 100vh;
+}
+
+#Title {
+    font-size: 32pt;
+    float: left;
+}
+
+.Navbar-Link {
+    text-decoration: none;
+}
+
+.Vertical-Line {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-left: 2px  solid white;
+    height: 32pt;
+}
+
+.Navbar {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#Navbar-hr {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    display: flex;
+    /* margin-left: 200px; */
+}
+
+.Navbar ul li {
+    margin: 10px 10px 0 10px;
+}
+
+hr {
+    margin: 10px;
+    color: white;
+}
+
+#Logo {
+    
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+
+#down-arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.Main-Section {
+    min-height: 100vh;
+    height: auto;
+    text-align: center;
+}
+
+
+.Section-Title {
+    margin-top: 75px;
+    font-size: 64pt;
+    display: inline-block;
+}
+
+.Section-Body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 75%;
+    font-size: 32pt;
+}
+
+/* #Games {
+    height: 200vh;
+    min-height: 100vh;
+    height: auto;
+} */
+
+.Subtitle {
+    min-height: 48px;
+    font-size: 48pt;
+}
+/* 
+#Contact {
+    height: 70vh;
+} */
